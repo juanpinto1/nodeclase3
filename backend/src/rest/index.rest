@@ -1,0 +1,18 @@
+POST http://127.0.0.1:3000/api/likes/add 
+Content-Type: application/json
+
+{
+"titulo": "Vegeta",
+"img": "https://i.pinimg.com/736x/69/57/08/6957089f6bbcb0edf4108aac0febdc3f.jpg",
+"descripcion": "Principe de los Sayayin",
+"likes": "1"
+
+}
+
+###
+GET http://127.0.0.1:3000/api/likes/get-all 
+Content-Type: application/json
+
+{
+}
+
